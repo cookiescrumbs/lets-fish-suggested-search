@@ -8,7 +8,7 @@ var config = {
     devtool: 'source-map',
     output: {
         path: BUILD_DIR,
-        filename: 'bundle.min.js'
+        filename: 'suggested-search.min.js'
     },
     module: {
         rules: [{
