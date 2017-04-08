@@ -4,9 +4,12 @@
   "description": "A search for finding places listed on Let's Fish",
   "main": "dist/",
   "jsnext:main": "src/index.jsx",
+   "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "karma start ./test/karma.conf.js",
-    "build": "webpack --progress -p --display-error-details"
+    "build": "webpack --progress -p"
   },
   "repository": {
     "type": "git",
@@ -42,7 +45,7 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "barbel": "0.0.5",
+    "barbel": "^0.0.9",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   }
