@@ -5,9 +5,9 @@ import { SuggestedSearch } from 'barbel';
 
 const props = {
     items,
-    label: 'Search for fishing',
-    placeholder: 'Search for fishing',
-    errorMessage: 'Custom error message: {{search}}'
+    label: 'start your search',
+    placeholder: 'start your search',
+    errorMessage: 'We couldn’t find results for {{search}}'
 };
 
 render(
